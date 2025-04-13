@@ -1,0 +1,110 @@
+/* Start Main Rulez */
+body{margin:0 auto;}
+.container{width:1170px;margin:auto}
+.clearfix{clear:both}
+/* End Main Rulez */
+/* Start Header */
+.header .slider{background-color:#FFF;height:600px}
+.header .slider .intro{background-image:url('../image/slaider.jpg');height:340px;text-align:center;color:#FFF;padding-top:260px}
+.header .slider .intro h2{color:#FFF;margin:0 auto;font-size:50px;width:600px;border-top:5px solid #FFF;border-bottom:5px solid #FFF; padding:5px 0}
+.header .slider .intro button{background:none;margin-top:30px;font-size:20px;border:3px solid #FFF;font-weight:bold;padding:10px 30px}
+.header .navbar{background-color:#252F31; color:#FFF; overflow:hidden;border-bottom:4px;border-color:red}
+.header .navbar .container h2{color:#FFF;text-transform:capitalize; text-indent:60px}
+.header .navbar .container h2 span{color:#2ecc71}
+.header .navbar .container ul{list-style:none; padding-left:0px; overflow:hidden;float:right;padding-right:50px}
+.header .navbar .container ul li {padding:10px;cursor:pointer}
+.header .navbar .container ul li a{color:#FFF; text-decoration:none}
+.header .navbar .container ul li.active a,.header .navbar .container ul li a:hover{color:#30B576}
+/* End Header */
+/* Start Features */
+.features .container{overflow:hidden; padding-top:40px;padding-bottom:50px}
+.features .feat{width:33.3333%; height:160px}
+/* End Features */
+/* Start About Me */
+.about-me{background-color:#F2F2F2; overflow:hidden}
+.about-me .container .image{width:40%}
+.about-me .container .image img{width:100%}
+.about-me .container .info{width:60%}
+.about-me .container .info h2{margin:20px 0 20px 40px}
+.about-me .container .info > p{margin:0px 0px 10px 40px }
+.about-me .container .info > p:last-of-type{margin-top:20px }
+/* End About Me */
+/* Start Hobbies */
+.about-me .container .info .hobbies{overflow:hidden;margin:15px 0 0 40px}
+.about-me .container .info .hobbies .content{width:50%;overflow:hidden}
+.about-me .container .info .hobbies .content .icon{width:12%;margin-right:5%}
+.about-me .container .info .hobbies .content .icon img{max-width:100%;margin:20px 10px 0 0}/* ...... i{margin-top:30px;color:#2DCC70} */
+.about-me .container .info .hobbies .content .text{width:83%}
+.about-me .container .info .hobbies .content .text p{margin-top:0}
+.about-me .container .info .hobbies .content .text h3{margin:5px 0 0 0}
+/* End Hobbies */
+/* start My Skills */
+.my-skills{background-color:#FFF; overflow:hidden;padding-top:30px;padding-bottom:50px}
+.my-skills .container .skills,.my-skills .container .progress{width:50%}
+.my-skills .container .skills h2{margin:20px 0 20px 40px}
+.my-skills .container .skills p{margin:0px 0px 10px 40px}
+.my-skills .container .skills p:last-of-type{margin-top:20px }
+.my-skills .container .skills button{background:none;color:#2DCC70;border:3px solid #2DCC70;padding:10px 30px;margin:20px 0 0 40px;font-weight:bold}
+.my-skills .container .progress .technique{margin-left:50px}
+.my-skills .container .progress .technique div{background-color:#F2F2F2;height:25px}
+.my-skills .container .progress .technique div span{background-color:#2DCC70;height:25px;display:block;line-height:25px;text-align:right;color:#FFF}
+/* End My Skills */
+/* Strat Resume */
+.resume {background-color:#F2F2F2;padding-top:50px;padding-bottom:70px}
+.resume h2{font-weight:bold}
+.resume p{padding:0 40px}
+.resume .container button{background:none;color:#2DCC70;border:3px solid #2DCC70;padding:10px 30px;margin-top:25px 0 0 40px;font-weight:bold}
+/* End Resume */
+/* start My Education */
+.my-education{ overflow:hidden;padding-top:30px;padding-bottom:30px}
+.my-education .container .main{width:50%;margin-right:5%}
+.my-education .container .main h2{margin:20px 0 20px 40px}
+.my-education .container .main p{margin:0px 0px 10px 40px}
+.my-education .container .main p:last-of-type{margin-top:20px }
+.my-education .container .exp{width:45%}
+.my-education .container .exp h3{margin-top:80px;margin-bottom:10px}
+.my-education .container .exp span{display:block;margin-bottom:10px}
+.my-education .container .exp span:first-of-type{color:#999}
+.my-education .container .exp span:last-of-type{color:#FFF;background-color:#2DCC70;display:inline-block;padding:4px 10px}
+.my-education .container .exp hr{margin:20px 0;background-color:#999;height:1px;border:1px}
+/* End My Education */
+/* Strat testimonials */
+.testimonials {background-color:#F2F2F2;padding-top:50px;padding-bottom:50px}
+.testimonials q{font:italic bold 18px/1.8 Arial, Tahoma;color:#888}
+.testimonials h3{margin-bottom:30px}
+.testimonials ul{list-style:none;padding-left:0;text-align:center}
+.testimonials ul li{width:15px;height:15px;border:2px solid #2DCC70;display:inline-block;cursor:pointer}
+.testimonials ul li.active, .testimonials ul li:hover{background-color:#2DCC70}
+/* End testimonials */
+/* Start Portfolio */
+.portfolio .container{padding-top:50px;padding-bottom:70px}
+.portfolio p{margin-bottom:30px}
+.portfolio .container .our-work{overflow:hidden}
+.portfolio .container .our-work > div{float:left;width:33.333%;margin-bottom:10px}
+.portfolio .container .our-work > div img{width:92%;margin:10px;padding:3px;background-color:#FFF;border: 1px solid #CCC}
+/* End Portfolio */
+/* Start Contact Me */
+.contact{background-color:#252F31;overflow:hidden;padding-top:50px;padding-bottom:70px}
+.contact .info{width:50%;margin-right:5%}
+.contact h2{color:#FFF;margin-left:40px}
+.contact p{color:#6A6E71;margin-left:40px;line-height:1.7}
+.contact p strong{color:#D1D6DA}
+.contact .form{width:45%} 
+.contact .form lable{display:block;color:#D1D6DA;margin:10px 0}
+.contact .form input[type="text"]{background-color:#4B5557;color:#FFF;padding:10px;border:0 ;width:80%;margin-bottom:10px}
+.contact .form input[type="number"]{background-color:#4B5557;color:#FFF;padding:10px;border:0 ;width:80%;margin-bottom:10px}
+.contact .form textarea {background-color:#4B5557;color:#FFF;padding:10px;border:0 ;width:80%;margin-bottom:10px;height:300px}
+.contact .form input[type="submit"]{background-color:#191E22;color:#FFF;padding:10px 20px;border:0}
+/* End Contact Me */
+/* Start footere */
+.footer{background-color:#191E22;color:#6A6E71;padding:20px 0;overflow:hidden}
+.footer ul{list-style:none;padding-left:0;margin:0;float:right}
+.footer ul li{display:inline-block}
+.footer ul li i:hover{color:#FFF}
+/* End footer */
+/* Start My Framwork */
+.fl-left{float:left}
+p{line-height:1.7;color:#888}
+h2, h3{color:#777}
+.txt-center{text-align:center}
+/* End My Framwork */
